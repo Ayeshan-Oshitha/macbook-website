@@ -7,6 +7,7 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 import Showcase from "./components/Showcase";
 import Feature from "./components/Feature";
 import Highlight from "./components/Highlight";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,6 +22,7 @@ function App() {
         <Performance />
         <Feature />
         <Highlight />
+        <Footer />
       </main>
     </>
   );
