@@ -26,6 +26,14 @@ const noChangeParts = [
   "Object_10",
 ];
 
+export interface PerformanceImgPosition {
+  id: string;
+  left?: number;
+  right?: number;
+  bottom?: number;
+  transform?: string;
+}
+
 const performanceImages = [
   { id: "p1", src: "/performance1.png" },
   { id: "p2", src: "/performance2.png" },
@@ -36,7 +44,7 @@ const performanceImages = [
   { id: "p7", src: "/performance7.png" },
 ];
 
-const performanceImgPositions = [
+const performanceImgPositions: PerformanceImgPosition[] = [
   {
     id: "p1",
     left: 5,
