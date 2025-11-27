@@ -1,7 +1,11 @@
+import NavBar from "./components/NavBar";
+
 function App() {
   return (
     <>
-      <p>Apple</p>
+      <main>
+        <NavBar />
+      </main>
     </>
   );
 }
