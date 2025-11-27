@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import ProductViewer from "./components/ProductViewer";
 import Performance from "./components/Performance";
 import gsap from "gsap";
-import { ScrollTrigger, SplitText } from "gsap/all";
+import { ScrollTrigger } from "gsap/all";
 import Showcase from "./components/Showcase";
 import Feature from "./components/Feature";
 import Highlight from "./components/Highlight";
