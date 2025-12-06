@@ -11,10 +11,10 @@ A visually rich, Apple-style product website built with React, Three.js, GSAP, a
 
 ## Tech Stack
 
-- [React] – UI framework
-- [Three.js] – 3D graphics
-- [GSAP] – Animation library
-- [TailwindCSS] – Utility-first CSS framework
+- React – UI framework
+- Three.js – 3D graphics
+- GSAP – Animation library
+- TailwindCSS – Utility-first CSS framework
 
 ## What’s Done
 
